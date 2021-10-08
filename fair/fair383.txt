@@ -1,0 +1,1 @@
+The fire tv does not display in 4k.. it processes in 4k but cant display 4k.. This is because of the dumb design.. It still has a 1.14 HDMI port.. you need at least a 2.0 dvd port to receive a 4k signal.. You wont be able to tell until you hit your tv display resolution.. there you will see it still displaying in 1080p.

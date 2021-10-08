@@ -1,0 +1,1 @@
+Echo simply did not do anything it was advertised to do. Basic weather was sporadic and more detailed questions resulted in "Cannot find response".

@@ -1,0 +1,1 @@
+Swiping had to be repeated several times sometimes to get the action to respond. Returned.

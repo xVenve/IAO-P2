@@ -1,0 +1,1 @@
+I mainly got this united to task advance of Spotify Connect but the unit would lockup if I tablet or phone that I using times out. I have to reboot the device in-order for spotify to recognize the Fire device again.

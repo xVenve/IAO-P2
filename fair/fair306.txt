@@ -1,0 +1,1 @@
+Bluetooth inaccessible if not connected to Wi-Fi. Device not chargeable hence not portable.

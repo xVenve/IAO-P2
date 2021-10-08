@@ -1,0 +1,1 @@
+I purchased this firetv to upgrade my from first firetv version as I have a samsung 4k tv, this new firetv recognized my hdmi port as 4k compatible when I set the resolution to 4k on video settings, after trying all posible settings, this bug only gives 1080 even playing 4k content. firetv1=firetv2.
