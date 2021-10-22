@@ -88,3 +88,49 @@ Weighted Avg.    0,557    0,111    0,545      0,557    0,548      0,440    0,839
    4   4 358   1  33 |   c = good
   31 117  18 219  15 |   d = poor
  141  34  43  22 160 |   e = verygood
+
+
+-------------------------------------------------
+
+Modelo 3
+
+Archivo data5Categories_1000Attributes_AttributeSelection.arff
+
+Archivo modelo_randomForest_500ciclos_1000attributes.model
+
+Stemmers -> SnowballStemmer
+Tokenizer -> AlphabeticTokenizer
+
+Filter -> AttributeSelection -> CorrelationAttributeEva
+
+RandomForest
+
+=== Summary ===
+
+Correctly Classified Instances        1075               53.75   %
+Incorrectly Classified Instances       925               46.25   %
+Kappa statistic                          0.4219
+Mean absolute error                      0.2624
+Root mean squared error                  0.3499
+Relative absolute error                 82.0052 %
+Root relative squared error             87.4798 %
+Total Number of Instances             2000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,593    0,148    0,501      0,593    0,543      0,419    0,849     0,528     excellent
+                 0,343    0,098    0,468      0,343    0,395      0,277    0,791     0,435     fair
+                 0,823    0,065    0,760      0,823    0,790      0,736    0,972     0,883     good
+                 0,550    0,118    0,538      0,550    0,544      0,428    0,847     0,554     poor
+                 0,380    0,150    0,388      0,380    0,384      0,232    0,706     0,357     verygood
+Weighted Avg.    0,538    0,116    0,531      0,538    0,531      0,418    0,833     0,551     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 237  16  25  16 106 |   a = excellent
+  43 137  23 149  48 |   b = fair
+   5   2 329   2  62 |   c = good
+  33 109  14 220  24 |   d = poor
+ 155  29  42  22 152 |   e = verygood
