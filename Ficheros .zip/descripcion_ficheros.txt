@@ -1,0 +1,45 @@
+Parte 1
+p1_data_60_atributos.arff
+	Fichero filtrado con los mejores 60 atributos según el ranker ordenados por clasificación.
+p1_60_clasificacion_lovins_characterngram_bagging10randomforest100.model
+	Modelo con 60 atributos, obtenidos por orden de clasificación, stemmer Lovins, tokenizer CharacterNGram y clasificado con Bagging de 10 Random Forest de 100 ciclos.
+p1_data_500_atributos.arff
+	Fichero filtrado con los mejores 500 atributos según el ranker ordenados por correlación.
+p1_500_correlacion_snowball_alphabetic_randomforest100.arff
+	Modelo con 500 atributos, obtenidos por orden de correlación, stemmer Snowball, tokenizer Alphabetic y clasificado con Random Forest de 100 ciclos.
+p1_500_correlacion_snowball_alphabetic_randomforest500.arff
+	Modelo con 500 atributos, obtenidos por orden de correlación, stemmer Snowball, tokenizer Alphabetic y clasificado con Random Forest de 500 ciclos.
+p1_data_1000_atributos.arff
+	Fichero filtrado con los mejores 1000 atributos según el ranker ordenados por correlación.
+p1_1000_correlacion_snowball_alphabetic_randomforest500.arff
+	Modelo con 1000 atributos, obtenidos por orden de correlación, stemmer Snowball, tokenizer Alphabetic y clasificado con Random Forest de 500 ciclos.
+
+Parte 2
+p2_data_500_atributos_5_clusters_5_seeds_k++.arff
+	Fichero filtrado con 500 atributos y ejecutado con 5 clusters y 5 semillas inicializado con Kmeans++.
+p2_model_randomforest_500ciclos_5_cluster_5_seeds_k++.model
+	Manhattan, inicialitation Kmeans++, semilla 5, stemmer Snowball, tokenizer Alphabetic, clasificado con random forest de 500.
+p2_model_randomforest_500ciclos_5_cluster_5_seeds.model
+	Manhattan, semilla 5, stemmer Snowball, tokenizer Alphabetic, clasificado con random forest de 500.
+p2_data_500_atributos_5_clusters_5_seeds.arff
+	Fichero filtrado con 500 atributos y ejecutado con 5 clusters y 5 semillas utilizando inicialización random.
+p2_data_500_atributos_4_clusters_2_seeds.arff
+	Fichero filtrado con 500 atributos y ejecutado con 4 clusters y 2 semillas utilizando inicialización random.
+p2_model_randomforest_500ciclos_4_cluster_2_seeds.model
+	Manhattan, semilla 2, 4 clusters, stemmer Snowball, tokenizer Alphabetic, clasificado con random forest de 500.
+p2_data_500_atributos_3_clusters_12_seeds.arff
+	Fichero filtrado con 500 atributos y ejecutado con 3 clusters y 12 semillas.
+p2_model_randomforest_500ciclos_3_clusters_12_seeds.model
+	Random forest, 500 ciclos, semilla 12, stemmer Snowball, tokenizer Alphabetic.
+p2_500_atributos_data_3_clusters_15_seeds.arff
+	Fichero filtrado con 500 atributos y ejecutado con 3 clusters y 15 semillas.
+p2_model_randomforest_500ciclos_3_clusters_12_seeds.model
+	Random forest, 500 ciclos, semilla 15, stemmer Snowball, tokenizer Alphabetic.
+p2_data_500_atributos_4_clusters_12_seeds.arff
+	Fichero filtrado con 500 atributos y ejecutado con 4 clusters y 12 semillas.
+p2_model_randomforest_500_ciclos_4_clusters_12_seeds.model
+	Random forest, 500 ciclos, semilla 12, stemmer Snowball, tokenizer Alphabetic.
+p2_data_500_atributos_5_clusters_13_seeds.arff
+	filtrado con 500 atributos y ejecutado con 5 clusters y 13 semillas.
+p2_model_randomforest_500_ciclos_5_clusters_13_seeds.model
+	Random forest, 500 ciclos, semilla 13, stemmer Snowball, tokenizer Alphabetic.
